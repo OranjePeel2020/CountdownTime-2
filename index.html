@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="container">
+
+      <div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="videos/ocean.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div id="countdownTimer">
+        <div class="">
+          <div id="timer">
+            <div class="countdown">
+              <div class="days countdown-number"></div>
+              <div class="countdown-text">DAYS</div>
+            </div>
+
+            <div class="countdown">
+              <div class="hours countdown-number"></div>
+              <div class="countdown-text">HOURS</div>
+            </div>
+
+            <div class="countdown">
+              <div class="minutes countdown-number"></div>
+              <div class="countdown-text">MINUTES</div>
+            </div>
+
+            <div class="countdown">
+              <div class="seconds countdown-number"></div>
+              <div class="countdown-text">SECONDS</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="btn">
+	           <button class="register-btn">Register for a free ad public sale</button>
+          </div>
+
+          <div class="progress-bar">
+            <p class="percentage">
+               <span>$186,000</span> raised
+            </p>
+
+            <p class="percent">$5,000,000</p>
+
+            <div class="clear"></div>
+
+            <div class="progress">
+              <div class="bar">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <script src="functions.js"></script>
+    </footer>
+  </body>
+</html>

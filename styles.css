@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.clear{
+  clear: both;
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#container{
+  padding: 45px 0 0;
+}
+
+#countdownTimer{
+  width: 530px;
+  height: 425px;
+  background-color: rgb(0 8 19 / 0%);
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  border-radius: 15px;
+}
+
+#timer{
+  display: inline-block;
+  background-color: rgb(0 8 19 / 35%);
+  border-radius: 20px;
+  width: 478px;
+  height: 142px;
+  margin: 0px 4px;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+
+.countdown{
+  display: inline-block;
+  border-radius: 20px;
+  width: 100px;
+  height: 120px;
+  margin: 0px 8px;
+}
+
+.countdown-number{
+  display: block;
+  background: linear-gradient(0deg, rgb(0 25 45 / 50%) 45%, rgb(0 8 19 / 0%) 50%, rgb(0 16 31) 55%);
+  padding: 20px 0 0;
+  width: 100px;
+  height: 80px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.countdown-text{
+  display: block;
+  margin: 5px 0 0;
+  padding: 10px 0 0;
+  width: 100px;
+  height: 27px;
+  background-color: rgb(0 11 26);
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.btn{
+  display: inline-block;
+  float: left;
+  margin: 25px 10px 0;
+}
+
+.register-btn{
+  border-radius: 100px;
+  border: 3px solid rgb(255 255 255);
+  padding: 10px 30px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.progress-bar{
+  display: inline-block;
+  float: right;
+  margin: 25px 4px 0;
+}
+
+.percentage{
+  display: inline-block;
+  color: rgb(255 255 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  float: left;
+}
+
+.percentage span{
+  color: rgb(255 255 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.percent{
+  display: inline-block;
+  color: rgb(255 255 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0;
+  float: right;
+}
+
+.progress{
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 10px;
+  width: 245px;
+  height: 10px;
+  margin: 10px auto 0;
+}
+
+.bar{
+  background-color: rgb(0 16 31);
+  border-radius: 10px;
+  width: 37.2%;
+  height: 10px;
+  margin-left: -2px;
+}
